@@ -9,10 +9,10 @@ question.forEach((q, i) => {
     answer[i].classList.toggle("hidden");
 
     if (answer[i].classList.contains("hidden")) {
-      icon[i].src = "/assets/images/icon-plus.svg";
+      icon[i].src = "./assets/images/icon-plus.svg";
     } else {
       {
-        icon[i].src = "/assets/images/icon-minus.svg";
+        icon[i].src = "./assets/images/icon-minus.svg";
       }
     }
   });
