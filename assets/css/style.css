@@ -24,7 +24,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 40vh;
-  background: url("https://github.com/rizkyagungm/component-faq-accordion/blob/main/assets/images/background-pattern-desktop.svg");
+  background: url(assets/images/background-pattern-desktop.svg);
   background-size: 100% auto;
   background-position: top center;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ body::before {
 
 @media (max-width: 450px) {
   body::before {
-    background: url("https://github.com/rizkyagungm/component-faq-accordion/blob/main/assets/images/background-pattern-mobile.svg");
+    background: url(assets/images/background-pattern-mobile.svg);
     height: 65vh;
   }
 
